@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cf038c2c65.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png.png" class="logo" alt="">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Fresher</p>
+            <h1>Hi, I am<br><span> Aditi Jagtap</span><br>from Malkapur</h1>
+        </div>
+    </div>
+</div> 
+<!-----------about----------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/2 pic.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am Aditi Satish Jagtap , born and grewed up in Malkapur. I had
+                    done<br> my schooling from N.J.Dand Sanskar Public School .I am skilled in web development.<br>
+                    Now I am doing my graduation in Bachelor Of Computer Application.
+                </p>
+
+              <div class="tab-title">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+                <p class="tab-links"onclick="opentab('achievement')">Achievement</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Web Developer</span><br>HTML,CSS,JavaScript</li>
+                    <li><span>Programming</span><br> Java<br>Python</li>
+                </ul>
+              </div> <div class="tab-contents active tab" id="experience">
+                <ul>
+                    <li>Fresher</li>
+                </ul>
+              </div> <div class="tab-contents active tab" id="education">
+                <ul>
+                    <li><span>2018</span><br>10th with 81.40%</li>
+                    <li><span>2020</span><br>12th with 79.54%</li>
+                    <li><span>2024</span><br>BCA from Saraswati College</li>
+                </ul>
+            </div> <div class="tab-contents active tab " id="achievement">
+                <ul>
+                    <li><span>certificate</span><br>Google Data Analytics <img src="images/MRN (2).png" height="500px"></li>
+                    <li><span>certificate</span><br>Meta React Native <img src="images/MRN (1).png" height="500px"></li>
+                </ul>
+              </div>
+            </div>
+         </div>
+     </div>
+</div>
+</div>
+<!----------Services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I used to design a layout of a website<br> with their technical expertise and knowledge <br>while keeping in mind the client’s requirements.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Logo Design </h2>
+                <p>I used to design different types of logo.<br> And has interest in Graphic Design.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------Portfolio--------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div id="work">
+                <img src="images/Screenshot 2024-02-26 010848.png" height="300px" width="370px">
+                <div class="layer">
+                    <h3>login form</h3>
+                    <p>I used to design Login form for web pages .</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div id="work">
+                <img src="images/Aditi Jagtap 1.png" height="300px" width="370px">
+                <div class="layer">
+                    <h3>Logo Design</h3>
+                    <p>I used to desigh various different combination of design to form a logo. </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div id="work">
+                <img src="images/work1.png" height="300px" width="380px" >
+                <div class="layer">
+                    <h3>working on project</h3>
+                    <p>BCA Statistics</p>
+                    <a href="#"><i class="fa-regular fa-square-check" ></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----Contact------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>aditijagtap03@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 7249070907</p>
+                <div class="social-icons">
+                    <a href="https://whatsapp.com/"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name"required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Aditi.<i class="fa-solid fa-face-smile"></i></p>
+    </div>
+</div>
+
+
+<script>
+     
+     var tablinks = document.getElementsByClassName("tab-links")
+     var tabcontents = document.getElementsByClassName("tab-contents")
+
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+     }
+     
+   
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxSdrrAHFn6NR85miDLPQg1A9_Flr5VGY7GJbQeDV1jn6SAoIZLBkHxwCQz_sToTjWEWA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
